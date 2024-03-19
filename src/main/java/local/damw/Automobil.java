@@ -42,6 +42,8 @@ public class Automobil {
         
         if(longitud != 7) correcta = false; // 2
         
+
+        
         while (correcta == true && i < longitud){ // 3
             char c = mat[i];
     
