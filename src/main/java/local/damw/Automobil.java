@@ -21,10 +21,8 @@ public class Automobil {
     public Automobil() { }
 
     // mètode per  mostrar les dades de l'automòbil
-    public void printAutomobil() {
-        System.out.println("Marca  : " + marca);
-        System.out.println("Model  : " + model);
-        System.out.println("Matricula  : " + matricula);
+    public String mostrarDades(){
+        return  "Marca: "+this.marca+", Model: "+this.model+", Matrícula: "+this.matricula;
     }
 
     /**
@@ -41,8 +39,6 @@ public class Automobil {
         int i = 0;
         
         if(longitud != 7) correcta = false; // 2
-        
-
         
         while (correcta == true && i < longitud){ // 3
             char c = mat[i];

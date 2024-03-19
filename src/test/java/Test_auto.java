@@ -2,7 +2,6 @@ import local.damw.*;
 
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
-
 import org.junit.jupiter.api.Test;
 
 
@@ -32,7 +31,7 @@ public class Test_auto {
         /** Prova 4: cami 4 */
         matricula = "2222ABC";
         resultat = Automobil.matriculaCorrecta(matricula);
-        assertTrue(resultat); // esperem que resultat sigui fals
+        assertTrue(resultat); // esperem que resultat sigui True
 
     }
 
