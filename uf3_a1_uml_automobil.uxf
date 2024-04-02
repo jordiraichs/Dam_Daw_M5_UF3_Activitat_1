@@ -1,4 +1,4 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>80</x><y>210</y><w>280</w><h>140</h></coordinates><panel_attributes>transparency=90
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>80</x><y>210</y><w>280</w><h>150</h></coordinates><panel_attributes>transparency=90
 bg=red
 Automobil
 --
@@ -8,7 +8,7 @@ Automobil
 --
 + Automobil(in ma: String, in mo)
 + Automobil()
-+ printAutomobi(): void
++ mostrarDades(): String
 __+ matriculaCorrecta(in matricula:String): bool __
 
 </panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>60</x><y>0</y><w>370</w><h>190</h></coordinates><panel_attributes>transparency=90
@@ -33,8 +33,8 @@ _auto1: Automobil_
 marca: String="Porche"
 model: String="Cayene"
 matricula: String="2323ABC"
-</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>340</y><w>90</w><h>110</h></coordinates><panel_attributes>lt=&lt;.
-&lt;&lt;instance&gt;&gt;</panel_attributes><additional_attributes>10;90;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>450</x><y>30</y><w>270</w><h>120</h></coordinates><panel_attributes>transparency=80
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>200</x><y>350</y><w>90</w><h>100</h></coordinates><panel_attributes>lt=&lt;.
+&lt;&lt;instance&gt;&gt;</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>UMLNote</id><coordinates><x>450</x><y>30</y><w>270</w><h>120</h></coordinates><panel_attributes>transparency=80
 bg=yellow
 Convencions de noms
 de diagrames UML.
@@ -45,7 +45,7 @@ crearan els diagrames. Per exemple si treballen
 en Java, poden utilitzar la forma de Java.</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>390</x><y>270</y><w>180</w><h>50</h></coordinates><panel_attributes>transparency=80
 bg=red
 
-UML de la classe Automobil</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>380</x><y>470</y><w>140</w><h>50</h></coordinates><panel_attributes>transparency=80
+UML de la classe Automobil</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLNote</id><coordinates><x>380</x><y>450</y><w>140</w><h>50</h></coordinates><panel_attributes>transparency=80
 bg=blue
 UML d'una instància 
 Automobil</panel_attributes><additional_attributes></additional_attributes></element></diagram>
